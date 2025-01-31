@@ -216,7 +216,7 @@ color: #999797;
     .content_section button{
         margin-top: 1px;
     }.list_content{
-        margin:0;
-        Padding:0;
+        margin-bottom:50px;
+        Padding-bottom:50px;
     }
 }
