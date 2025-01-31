@@ -197,7 +197,7 @@ color: #999797;
     }
     .img_section{
         height: 60%;
-        margin-bottom: 10px;
+        margin-bottom: 0;
         padding-bottom: 20px;
     }
     .default_info h2{
@@ -205,6 +205,8 @@ color: #999797;
     }
     
     .content_section{
+        padding-top:0;
+        margin-top:0;
         height: 80%;
     }
     .content_section input{
