@@ -188,8 +188,9 @@ color: #999797;
 
     
     .wrapper{
+        height:100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
     }   
     .icons img{
@@ -197,9 +198,10 @@ color: #999797;
         height: 30%;
     }
     .img_section{
-        height: 60%;
+        height: 50%;
+        width:100%;
         margin-bottom: 0;
-        padding-bottom: 20px;
+    
     }
     .default_info h2{
         font-size: 2rem;
@@ -207,7 +209,8 @@ color: #999797;
     
     .content_section{
         padding-top:0;
-        margin-top:0;
+        padding-bottom:0;
+        margin:0;
         height: 100%;
     }
     .content_section input{
@@ -215,7 +218,5 @@ color: #999797;
     }
     .content_section button{
         margin-top: 1px;
-    }.list_content{
-        bottom:50px;
-    }
+
 }
